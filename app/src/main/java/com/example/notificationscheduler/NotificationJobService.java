@@ -73,6 +73,6 @@ public class NotificationJobService extends JobService {
 
     @Override
     public boolean onStopJob(JobParameters params){
-        return true;
+        return false;
     }
 }
